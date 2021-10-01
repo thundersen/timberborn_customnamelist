@@ -10,3 +10,11 @@ Place a text file named `names.txt` in the same directory as `Timberborn.exe`.
 Names are picked from the list at random. Once all names have been used up, the list gets shuffled and names will be reused.
 
 If the mod is active but can't find `names.txt` in the correct place, it will print an error message to the log and remain inactive. 
+
+## Installation
+
+This mod is based on `BepInEx`. So you need to install that first: https://docs.bepinex.dev/articles/user_guide/installation/index.html
+
+[Download](https://github.com/thundersen/timberborn_customnamelist/releases) the latest release of the mod and place `CustomNameList.dll` in your BepinEx plugin folder.
+
+Place a `name.txt` file next to your `Timberborn.exe`.
