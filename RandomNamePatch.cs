@@ -1,12 +1,11 @@
-using System;
 using HarmonyLib;
-using Timberborn.Characters;
+using Timberborn.Beavers;
 
 namespace CustomNameList
 {
     class RandomNamePatch
     {
-        [HarmonyPatch(typeof(NameService), "RandomName")]
+        [HarmonyPatch(typeof(BeaverNameService), "RandomName")]
         public static class PatchRandomNameGeneration
         {
             private static void Postfix(ref string __result)
