@@ -1,6 +1,6 @@
 {
     "name": "CustomNameList",
-    "version_number": "0.1.1",
+    "version_number": "0.1.2",
     "website_url": "https://github.com/thundersen/timberborn_customnamelist",
     "description": "Add a custom name list for your beavers",
     "dependencies": [

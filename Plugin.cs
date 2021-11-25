@@ -7,7 +7,7 @@ using UnityEngine;
 
 namespace CustomNameList
 {
-    [BepInPlugin("com.thundersen.timberborn.customnamelist", "Custom Name List", "0.0.0.1")]
+    [BepInPlugin("com.thundersen.timberborn.customnamelist", "Custom Name List", "0.1.2")]
     [BepInProcess("Timberborn.exe")]
     public class Plugin : BaseUnityPlugin
     {
